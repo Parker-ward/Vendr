@@ -15,7 +15,8 @@ function _drawSnacks() {
     let snacks = appState.snacks
     let template = ''
     snacks.forEach(snack => template += snack.ListTemplate)
-        console.log('this is the snack',template);
+        // console.log('this is the snack',template);
+        setHTML('snacks', template)
     
 }
 

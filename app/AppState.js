@@ -13,14 +13,14 @@ class AppState extends EventEmitter {
       {
         name: 'protein shake',
         price: 1.50,
-        imgUrl: ''
+        imgUrl: 'https://images.unsplash.com/photo-1563417994892-38ee47f9d1f2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cHJvdGVpbiUyMHNoYWtlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60'
       }),
 
       new Snack(
         {
           name: 'protein bar',
           price: 1.00,
-          imgUrl: ''
+          imgUrl: 'https://plus.unsplash.com/premium_photo-1664392029345-eba492b172d8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cHJvdGVpbiUyMGJhcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60'
         }
       )
     
