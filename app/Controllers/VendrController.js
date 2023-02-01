@@ -1,5 +1,6 @@
 import { appState } from "../AppState.js";
 import { vendrService } from "../Services/VendrServices.js";
+import { Pop } from "../Utils/Pop.js";
 import { setHTML } from "../Utils/Writer.js";
 
 
@@ -36,4 +37,13 @@ increaseCash(){
 vendrService.increaseCash()
 }
 
+
+
+dispenseSnacks(){
+    let cash = appState.cash
+    if (cash <= .99) {
+        Pop.toast('You broke homie', "warning", "center", 3000, true)
+        
+    }
+}
 }

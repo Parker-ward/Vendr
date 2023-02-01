@@ -19,6 +19,7 @@ export class Snack{
                 <img src="${this.imgUrl}" alt="Protein Shake">
                 <div><p><b>${this.name}</b></p></div>
                 <div><span><b>$${this.price}</b></span></div>
+                <div><button class="btn btn-primary" onclick="">Buy</button></div>
             </div>
         </div>
         `
